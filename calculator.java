@@ -17,19 +17,19 @@ public class calculator {
         int num = input.nextInt();
         switch (num) {
             case 1:
-                System.out.println(num1 + num2);
+                System.out.println("Addition of your numbers is : "+(num1 + num2));
                 break;
 
             case 2:
-                System.out.println(num1 - num2);
+                System.out.println("Substraction of your numbers is : "+(num1 - num2));
                 break;
 
             case 3:
-                System.out.println(num1 * num2);
+                System.out.println("Multiplication of your numbers is : "+(num1 * num2));
                 break;
 
             case 4:
-                System.out.println(num1 / num2);
+                System.out.println("Dividation of yout numbers is : "+(num1 / num2));
                 break;
 
             default:
